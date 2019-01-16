@@ -424,6 +424,9 @@ def apply_nucleotide_features(seq_data_frame, order, num_proc, include_pos_indep
         feat_pi = seq_data_frame.apply(nucleotide_features, args=(order, max_index_to_use, prefix, 'pos_independent'))
         print(np.any(np.isnan(feat_pd)))
         print(feat_pd)
+
+        print('TTTTT')
+        print(assert np.any(np.isnan(feat_pd)))
         assert not np.any(np.isnan(feat_pd)), "nans here can arise from sequences of different lengths"
         assert not np.any(np.isnan(feat_pi)), "nans here can arise from sequences of different lengths"
         return feat_pd, feat_pi
