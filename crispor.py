@@ -275,7 +275,8 @@ commandLineMode = False
 
 # names/order of efficiency scores to show in UI
 scoreNames = ["fusi", "crisprScan"]
-allScoreNames = ["fusi", "fusiOld", "chariRank", "ssc", "doench", "wang", "crisprScan", "aziInVitro", "ccTop"]
+#allScoreNames = ["fusi", "fusiOld", "chariRank", "ssc", "doench", "wang", "crisprScan", "aziInVitro", "ccTop"]
+allScoreNames = ["fusi",  "chariRank", "ssc", "doench", "wang", "crisprScan", "aziInVitro", "ccTop"]
 
 cpf1ScoreNames = ["seqDeepCpf1"]
 
